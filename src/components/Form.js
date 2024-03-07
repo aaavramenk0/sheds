@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
@@ -55,10 +54,10 @@ const Form = () => {
     return (
         <>
             <div className="py-5 lg:py-8 px-4 mx-auto max-w-screen-lg">
-                <h2 className="mb-4 text-3xl tracking-tight font-semibold text-center text-heading md:text-5xl">Зв'язатись з нами</h2>
+                <h2 className="mb-4 text-3xl tracking-tight font-semibold text-center text-heading md:text-5xl">Зв&apos;язатись з нами</h2>
                 <form ref={form} onSubmit={sendEmail} className="space-y-8 text-center">
                     <div>
-                        <label htmlFor="name" className="block mb-2 text-lg font-medium text-gray-900 text-left lg:text-xl">Ваше ім'я</label>
+                        <label htmlFor="name" className="block mb-2 text-lg font-medium text-gray-900 text-left lg:text-xl">Ваше ім&apos;я</label>
                         <input    
                             type='text'
                             id='name'
