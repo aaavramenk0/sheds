@@ -191,7 +191,7 @@ export default function Home() {
                                 Дозволи не потрібні для встановлення теплиці на вашій території.
                             </AccordionItem>    
                             <AccordionItem key="5" aria-label="Accordion 5" title="Як я можу отримати ціну на сарай?">
-                                Ви можете отримати цінову пропозицію, зв'язавшись з нами безпосередньо через наш сайт або по телефону. Ми обговоримо ваші потреби, вподобання та особливості вашої нерухомості, щоб надати вам детальний кошторис.
+                                Ви можете отримати цінову пропозицію, зв&apos;язавшись з нами безпосередньо через наш сайт або по телефону. Ми обговоримо ваші потреби, вподобання та особливості вашої нерухомості, щоб надати вам детальний кошторис.
                             </AccordionItem>  
                             <AccordionItem key="6" aria-label="Accordion 6" title="Які можливі розміри та ціни теплиць, які ви можете побудувати?">
                                 <Table isStriped aria-label="Shed sizes and price table">
@@ -248,9 +248,9 @@ export default function Home() {
             {/* Modal window */}
             <Modal isOpen={isOpen} onOpenChange={onOpenChange} placement="top-center" className="pb-7" >
                 <ModalContent>
-                {(onClose) => (
+                {(onClose: any) => (
                     <>
-                    <ModalHeader className="flex flex-col gap-1">Зв'язатись з нами</ModalHeader>
+                    <ModalHeader className="flex flex-col gap-1">Зв&apos;язатись з нами</ModalHeader>
                     <ModalBody>
                         <Button as={Link} color="primary" target="blank" startContent={<FontAwesomeIcon icon={faComments} />} href="sms:+14044165745" className="text-lg font-bold text-center text-white rounded-lg focus:ring-4 focus:outline-none focus:ring-primary-300">Текстові повідомлення</Button>
                         <Button as={Link} color="danger" target="blank" startContent={<FontAwesomeIcon icon={faEnvelope} />} href="mailto:armaxrenovation@gmail.com" className="text-lg font-bold text-center text-white rounded-lg focus:ring-4 focus:outline-none focus:ring-primary-300">Email</Button>
