@@ -1,4 +1,4 @@
-import { Accordion, AccordionItem, Button, Input, Link, Modal, ModalBody, ModalContent, ModalHeader, Table, TableBody, TableCell, TableColumn, TableHeader, TableRow, useDisclosure } from "@nextui-org/react";
+import { Accordion, AccordionItem, Button, Link, Modal, ModalBody, ModalContent, ModalHeader, Table, TableBody, TableCell, TableColumn, TableHeader, TableRow, useDisclosure } from "@nextui-org/react";
 import NextImage from "next/image";
 import small from "../images/shedCatalog/small1.png"
 import medium from "../images/shedCatalog/medium1.png"
