@@ -20,6 +20,7 @@
     "@vercel/og": "^0.6.0",
     "@vercel/speed-insights": "^1.0.1",
     "axios": "^1.6.7",
+    "framer-motion": "^11.0.14",
     "next": "14.0.4",
     "next-seo": "^6.5.0",
     "nextjs-progressbar": "^0.0.16",
