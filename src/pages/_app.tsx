@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <SpeedInsights />
         <Head>
           <link rel="shortcut icon" href="../../static/favicon.ico" type="image/x-icon" />
-          <title>Теплиці для вашого саду</title>
+          <title>Будиночки для присадибної ділянки</title>
           <meta charSet="utf-8" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <meta name="robots" content="index, follow" />

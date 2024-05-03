@@ -15,17 +15,17 @@ export default function Home() {
     
     const shedCatalog = [
         {
-            size: "Теплиця мінімум (2.04м х 1.32м x 1.85м)",
+            size: "Будиночок мінімум (2.04м х 1.32м x 1.85м)",
             image: small,
             price: "3500 грн."
         },
         {
-            size: "Теплиця середня (2.05м x 2.57м х 1.78м)",
+            size: "Будиночок середній (2.05м x 2.57м х 1.78м)",
             image: medium,
             price: "5200 грн."
         },
         {
-            size: "Теплиця квадрат (1.9м x 1.21м х 1.8м)",
+            size: "Будиночок квадрат (1.9м x 1.21м х 1.8м)",
             image: large,
             price: "4200 грн."
         }
@@ -57,10 +57,9 @@ export default function Home() {
             {/* HERO section */}
             <section className="bg-white" id="home">
                 <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-16 xl:gap-0 lg:pt-16 lg:pb-5 lg:grid-cols-12 ">
-                {/* <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-16 xl:gap-0 lg:py-16 lg:grid-cols-12 bg-primary-300"> */}
                     <div className="mr-auto place-self-center lg:col-span-6 xl:col-span-7">
-                        <h1 className="max-w-2xl mb-4 text-4xl text-heading font-semibold tracking-tight leading-none md:text-6xl">Вітаємо у світі теплиць!</h1>
-                        <p className="max-w-2xl mb-6 text-lg text-subheading lg:mb-8 md:text-xl lg:text-2xl">Не переплачуйте - Зробіть правильний вибір і замовте теплицю для вашого дому прямо сьогодні!</p>
+                        <h1 className="max-w-2xl mb-4 text-4xl text-heading font-semibold tracking-tight leading-none md:text-6xl">Вітаємо у світі будиночків для присадибної ділянки!</h1>
+                        <p className="max-w-2xl mb-6 text-lg text-subheading lg:mb-8 md:text-xl lg:text-2xl">Не переплачуйте - Зробіть правильний вибір і замовте будиночок для вашого саду прямо сьогодні!</p>
                         
                         <Button as={Link} onPress={onOpen} className="m-auto inline-flex items-center justify-center px-10 py-5 text-xl text-center font-semibold text-white rounded-lg bg-red-700 md:text-2xl md:px-10 md:py-8">Напишіть нам</Button>
                     </div>   
@@ -75,8 +74,8 @@ export default function Home() {
             <section className="bg-white" id="sheds">
                 <div className="pb-8 px-4 mx-auto max-w-screen-xl lg:py-8">
                     <div className="mx-auto max-w-screen-xl mb-8">
-                        <h2 className="mb-4 text-3xl font-semibold tracking-tight text-heading md:text-5xl lg:text-center">Каталог теплиць</h2>
-                        <p className="text-lg text-subheading sm:text-xl lg:text-2xl lg:text-center">Наші теплиці містять усе необхідне для зберігання і правильного розвитку ваших розсад і є ідеальним рішенням для тих, хто цінує функціональність</p>
+                        <h2 className="mb-4 text-3xl font-semibold tracking-tight text-heading md:text-5xl lg:text-center">Каталог будиночків</h2>
+                        <p className="text-lg text-subheading sm:text-xl lg:text-2xl lg:text-center">Наші будиночки містять усе необхідне для зберігання і правильного розвитку ваших розсад і є ідеальним рішенням для тих, хто цінує функціональність</p>
                     </div>
                     <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                         {shedCatalog.map((shed, index) => (
@@ -117,7 +116,7 @@ export default function Home() {
             <section className="bg-white" id="about">
                 <div className="pt-8 px-4 mx-auto max-w-screen-xl">
                     <div className="max-w-screen-lg mb-8">
-                        <h2 className="mb-4 text-3xl tracking-tight font-semibold text-heading md:text-5xl">Ми будуємо довіру, а не тільки теплиці</h2>
+                        <h2 className="mb-4 text-3xl tracking-tight font-semibold text-heading md:text-5xl">Ми будуємо довіру, а не тільки будиночки</h2>
                         <p className="text-subheading text-lg lg:text-2xl">Наша місія — надихати наших клієнтів, роблячи ваше життя зручнішим і кращим. Ми завжди унікально обслуговуємо кожного клієнта. Ми гарантуємо якість продукції та забезпечуємо безкоштовне обслуговування</p>
                     </div>
                     <div className="space-y-8 md:grid md:grid-cols-2  md:gap-12 md:space-y-0">
@@ -133,11 +132,11 @@ export default function Home() {
                                 <FontAwesomeIcon icon={faDollarSign} className="fa-2x" />    
                             </div>
                             <h3 className="mb-2 text-2xl font-semibold text-center">Прагнення до якості та доступності</h3>
-                            <p className="text-subheading text-lg">Прагнення до якості та доступності при будівництві теплиць є очевидним завдяки використанню високоякісних матеріалів та ретельному будівництву, щоб забезпечити міцність конструкції та довговічність. При цьому увага приділяється доступності матеріалів і технологій, щоб зробити будівництво теплиць доступним для широкого кола людей без шкоди для якості та безпеки.</p>
+                            <p className="text-subheading text-lg">Прагнення до якості та доступності при будівництві є очевидним завдяки використанню високоякісних матеріалів та ретельному будівництву, щоб забезпечити міцність конструкції та довговічність. При цьому увага приділяється доступності матеріалів і технологій, щоб зробити будівництво будиночків для присадибної ділянки доступним для широкого кола людей без шкоди для якості та безпеки.</p>
                         </div>
                     </div>
                     <div className="mt-12" id="sizes">
-                        <h2 className="mb-7 text-3xl font-semibold tracking-tight text-heading md:text-5xl lg:text-center">Розміри теплиць</h2>
+                        <h2 className="mb-7 text-3xl font-semibold tracking-tight text-heading md:text-5xl lg:text-center">Розміри будиночків</h2>
                         <Table isStriped aria-label="Shed sizes and price table">
                             <TableHeader>
                                 <TableColumn className="text-md xl:text-xl bg-red-200 text-heading"> РОЗМІР </TableColumn>
@@ -176,24 +175,24 @@ export default function Home() {
                     <h2 className="mb-8 text-3xl text-center tracking-tight font-semibold text-heading md:text-5xl">Поширені запитання</h2>
                     <div className="grid pt-8 text-left border-t gap-4 border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
                         <Accordion variant="bordered"> 
-                            <AccordionItem key="1" aria-label="Accordion 1" title="Скільки часу займає будівництво та встановлення теплиці?">
-                                Терміни будівництва та встановлення теплиці можуть змінюватись залежно від складності конструкції та рівня налаштування. Як правило, теплиця може бути побудована і встановлена протягом 5-7 днів з моменту замовлення.
+                            <AccordionItem key="1" aria-label="Accordion 1" title="Скільки часу займає будівництво та встановлення 1 будиночка?">
+                                Терміни будівництва та встановлення можуть змінюватись залежно від складності конструкції та рівня налаштування. Як правило, будиночок може бути побудований і встановлений протягом 5-7 днів з моменту замовлення.
                             </AccordionItem>
-                            <AccordionItem key="2" aria-label="Accordion 2" title="Чи надаєте ви гарантію на свої сараї?">
+                            <AccordionItem key="2" aria-label="Accordion 2" title="Чи надаєте ви гарантію на свої будиночки?">
                                 Ми відстоюємо якість нашої роботи і надаємо гарантію, яка покриває всі дефекти. Тривалість гарантії - 3 роки.
                             </AccordionItem>
-                            <AccordionItem key="3" aria-label="Accordion 3" title="Ваші теплиці стійкі до погодних умов?">
-                                Так, усі наші теплиці побудовані з високоякісних матеріалів, які вибрано за їх довговічністю та стійкістю до погодних умов. Ми також наносимо захисне покриття для захисту від стихій.
+                            <AccordionItem key="3" aria-label="Accordion 3" title="Ваші будиночки стійкі до погодних умов?">
+                                Так, усі наші будиночки побудовані з високоякісних матеріалів, які вибрано за їх довговічністю та стійкістю до погодних умов. Ми також наносимо захисне покриття для захисту від стихій.
                             </AccordionItem>
                         </Accordion>
                         <Accordion variant="bordered">
-                            <AccordionItem key="4" aria-label="Accordion 4" title="Чи потрібен мені дозвіл на встановлення теплиці на своїй території?">
-                                Дозволи не потрібні для встановлення теплиці на вашій території.
+                            <AccordionItem key="4" aria-label="Accordion 4" title="Чи потрібен мені дозвіл на встановлення присадибного будиночка на своїй території?">
+                                Дозволи не потрібні для встановлення будиночка на вашій території.
                             </AccordionItem>    
-                            <AccordionItem key="5" aria-label="Accordion 5" title="Як я можу отримати ціну на сарай?">
+                            <AccordionItem key="5" aria-label="Accordion 5" title="Як я можу отримати ціну?">
                                 Ви можете отримати цінову пропозицію, зв&apos;язавшись з нами безпосередньо через наш сайт або по телефону. Ми обговоримо ваші потреби, вподобання та особливості вашої нерухомості, щоб надати вам детальний кошторис.
                             </AccordionItem>  
-                            <AccordionItem key="6" aria-label="Accordion 6" title="Які можливі розміри та ціни теплиць, які ви можете побудувати?">
+                            <AccordionItem key="6" aria-label="Accordion 6" title="Які можливі розміри та ціни будиночків, які ви можете побудувати?">
                                 <Table isStriped aria-label="Shed sizes and price table">
                                     <TableHeader>
                                         <TableColumn className="text-md xl:text-xl bg-red-200 text-heading"> РОЗМІР </TableColumn>
